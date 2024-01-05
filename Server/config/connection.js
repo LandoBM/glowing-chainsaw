@@ -9,4 +9,3 @@ connect(connectionString, {
 
 module.exports = connection
 
-//NA

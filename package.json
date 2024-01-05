@@ -1,0 +1,28 @@
+{
+  "name": "newapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd server && npm start \" \"cd client && npm start\"",
+    "start": "node server/server.js",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LandoBM/glowing-chainsaw.git"
+  },
+  "author": "Landon Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LandoBM/glowing-chainsaw/issues"
+  },
+  "homepage": "https://github.com/LandoBM/glowing-chainsaw#readme",
+  "dependencies": {
+    "axios": "^1.6.4",
+    "concurrently": "^8.2.2",
+    "mongoose": "^8.0.3"
+  }
+}

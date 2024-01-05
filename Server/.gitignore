@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore any .env file
+.env
+
+# Ignore all log files
+*.log
+
+# Ignore any files with .backup extension
+*.backup
+
+# Ignore all .pdf files
+*.pdf
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all files with .cache extension
+*.cache
+
+# Ignore any files with .temp extension
+*.temp
+
+# Ignore any files with .swp extension
+*.swp
+
+# Ignore all backup files created by emacs
+*~
